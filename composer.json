@@ -1,0 +1,21 @@
+{
+  "name": "vansilich/teachbase-sdk",
+  "version": "1.0.0",
+  "description": "SDK к API teachbase.ru",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Teachbase\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kulikov Ivan",
+      "email": "kulpovvvan@gmail.com"
+    }
+  ]
+}
